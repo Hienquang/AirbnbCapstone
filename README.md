@@ -34,7 +34,7 @@ This dataset is relatively cleanned and only required a small amout of cleaning
 
 * There are a few county where there is no listings
 
-![](https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/missing.png)
+<img src="https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/missing.png" width="200"/>
 
 * Even though there is a higher concentration in Downtown San Diego, it's not where the highest average nightly rental is
 
