@@ -17,11 +17,11 @@ Data can be found on insideairbnb website (http://insideairbnb.com/get-the-data.
 
 [Data Wrangling Notebook](https://github.com/Hienquang/AirbnbCapstone/blob/main/Notebook/Data%20Wrangling.ipynb)
 
-This dataset is relatively cleanned and only required a small amout of cleaning
+This dataset is relatively cleaned and only required a small amount of cleaning
 
-* **Problem 1:** There are a few listings which are priced at zero dollar. These listings also don't contains other useful information. **Solution:** These rows are dropped
+* **Problem 1:** There are a few listings which are priced at zero dollars. These listings also don't contains other useful information. **Solution:** These rows are dropped
 
-* **Problem 2:** There are 4 columns that doesn't hold any values at all: 'license','bathrooms','neighbourhood_group_cleansed' and 'calendar_updated'.  **Solution:** These columns are also dropped
+* **Problem 2:** There are 4 columns that don't hold any values at all: 'license','bathrooms','neighbourhood_group_cleansed' and 'calendar_updated'.  **Solution:** These columns are also dropped
 
 ## 3. EDA
 
@@ -49,13 +49,13 @@ This dataset is relatively cleanned and only required a small amout of cleaning
 
 [Pre-processing Notebook](https://github.com/Hienquang/AirbnbCapstone/blob/main/Notebook/Pre-processing%20and%20training.ipynb)
 
-Pre-processing work mostly include parsing out amentities listing and encoding categorical data. Object columns such as bio and description is converted to binary instead (whether a listing has a description or if it's left empty, etc. )
+Pre-processing work mostly includes parsing out amenities listing and encoding categorical data. Object columns such as bio and description is converted to binary instead (whether a listing has a description or if it's left empty, etc. )
 
 ## 5. Modeling
 
-[Modeling Notbook](https://github.com/Hienquang/AirbnbCapstone/blob/main/Notebook/Modeling_updated.ipynb)
+[Modeling Notebook](https://github.com/Hienquang/AirbnbCapstone/blob/main/Notebook/Modeling_updated.ipynb)
 
-Using Pycaret, I was able to test a few regression models at once to pick a baseline. The initial models weren't great because of how skewed rental pricing is. There are probably clusters of different type of listings which contributed to their price. At a glance, this dataset can be splitted into typical listings and luxury listings. It's unlikely that including luxury listings would help in predicting typical listing price. Therefore, dataset is filtered to included only listing that is priced $1000 or under. THis has drastically improved models performance accross the board.
+Using Pycaret, I was able to test a few regression models at once to pick a baseline. The initial models weren't great because of how skewed rental pricing is. There are probably clusters of different types of listings which contributed to their price. At a glance, this dataset can be splitted into typical listings and luxury listings. It's unlikely that including luxury listings would help in predicting typical listing prices. Therefore, dataset is filtered to include only listings that are priced $1000 or under. THis has drastically improved models performance across the board.
 
 The best performed model is Light Gradient Boosting Machine:
 * MAE: 54.1981
@@ -68,7 +68,7 @@ The best performed model is Light Gradient Boosting Machine:
 
 ![](https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/shap.png)
 
-Some features have a much bigger impact on the pricing. Unsurprisingly, the number of bedrooms and bathrooms are on top of this list. The more bathrooms and bathrooms you have, the higher price you can charge for your place. The next important feature is number of reviews and not the review score itself. The more people reviews your place, the higher price you can command. Longitude is another interesting feature. Listings that are closer to the beach can ask for higher price than listings that are inland. 
+Some features have a much bigger impact on the pricing. Unsurprisingly, the number of bedrooms and bathrooms are on top of this list. The more bathrooms and bathrooms you have, the higher price you can charge for your place. The next important feature is the number of reviews and not the review score itself. The more people review your place, the higher price you can command. Longitude is another interesting feature. Listings that are closer to the beach can ask for higher prices than listings that are inland. 
 
 ## 7. Future Improvements
 
