@@ -42,6 +42,7 @@ This dataset is relatively cleanned and only required a small amout of cleaning
 * As predicted, most pricing is very skewed
 
 ![](https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/price.png)
+
 ![](https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/price_under_1000.png)
 
 ## 4. Pre-processing
