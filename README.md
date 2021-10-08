@@ -28,12 +28,19 @@ This dataset is relatively cleanned and only required a small amout of cleaning
 [EDA Notebook](https://github.com/Hienquang/AirbnbCapstone/blob/main/Notebook/Exploratory%20Data%20Analysis.ipynb)
 
 * There is a higher concentration in Downtown San Diego  compared to other county
+ 
 ![](https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/concentration.png)
+
 * There are a few county where there is no listings
+
 ![](https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/missing.png)
+
 * Even though there is a higher concentration in Downtown San Diego, it's not where the highest average nightly rental is
+
 ![](https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/high_price.png)
+
 * As predicted, most pricing is very skewed
+
 ![](https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/price.png)
 ![](https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/price_under_1000.png)
 
