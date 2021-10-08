@@ -28,14 +28,14 @@ This dataset is relatively cleanned and only required a small amout of cleaning
 [EDA Notebook](https://github.com/Hienquang/AirbnbCapstone/blob/main/Notebook/Exploratory%20Data%20Analysis.ipynb)
 
 * There is a higher concentration in Downtown San Diego  compared to other county
-![](./pics/concentration.png)
+![](https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/concentration.png)
 * There are a few county where there is no listings
-![](pics/missing.png)
+![](https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/missing.png)
 * Even though there is a higher concentration in Downtown San Diego, it's not where the highest average nightly rental is
-![](pics/high_price.png)
+![](https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/high_price.png)
 * As predicted, most pricing is very skewed
-![](pics/price.png)
-![](pics/price_under_1000.png)
+![](https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/price.png)
+![](https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/price_under_1000.png)
 
 ## 4. Pre-processing
 
@@ -57,7 +57,7 @@ The best performed model is Light Gradient Boosting Machine:
 * Time: 0.318 sec
 
 ## 6. Interpretation 
-![](pic/shap.png)
+![](https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/shap.png)
 Some features have a much bigger impact on the pricing. Unsurprisingly, the number of bedrooms and bathrooms are on top of this list. The more bathrooms and bathrooms you have, the higher price you can charge for your place. The next important feature is number of reviews and not the review score itself. The more people reviews your place, the higher price you can command. Longitude is another interesting feature. Listings that are closer to the beach can ask for higher price than listings that are inland. 
 
 ## 7. Future Improvements
