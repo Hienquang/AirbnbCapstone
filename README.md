@@ -28,7 +28,7 @@ This dataset is relatively cleanned and only required a small amout of cleaning
 [EDA Notebook](https://github.com/Hienquang/AirbnbCapstone/blob/main/Notebook/Exploratory%20Data%20Analysis.ipynb)
 
 * There is a higher concentration in Downtown San Diego  compared to other county
-![](pics/concentration.png)
+![](./pics/concentration.png)
 * There are a few county where there is no listings
 ![](pics/missing.png)
 * Even though there is a higher concentration in Downtown San Diego, it's not where the highest average nightly rental is
