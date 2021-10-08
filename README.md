@@ -29,22 +29,21 @@ This dataset is relatively cleanned and only required a small amout of cleaning
 
 * There is a higher concentration in Downtown San Diego  compared to other county
  
-![](https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/concentration.png)
-![](https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/concentration.png)
+<img src="hhttps://github.com/Hienquang/AirbnbCapstone/blob/main/pic/concentration.png" width="400"/>
 
 * There are a few county where there is no listings
 
-<img src="https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/missing.png" width="200"/>
+<img src="https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/missing.png" width="400"/>
 
 * Even though there is a higher concentration in Downtown San Diego, it's not where the highest average nightly rental is
 
-![](https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/high_price.png)
+<img src="https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/high_price.png" width="400"/>
 
 * As predicted, most pricing is very skewed
 
-![](https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/price.png)
+<img src="https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/price.png" width="400"/>
 
-![](https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/price_under_1000.png)
+<img src="https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/price_under_1000.png" width="400"/>
 
 ## 4. Pre-processing
 
