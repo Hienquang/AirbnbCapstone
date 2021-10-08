@@ -29,7 +29,7 @@ This dataset is relatively cleanned and only required a small amout of cleaning
 
 * There is a higher concentration in Downtown San Diego  compared to other county
  
-<img src="hhttps://github.com/Hienquang/AirbnbCapstone/blob/main/pic/concentration.png" width="400"/>
+<img src="https://github.com/Hienquang/AirbnbCapstone/blob/main/pic/concentration.png" width="400"/>
 
 * There are a few county where there is no listings
 
