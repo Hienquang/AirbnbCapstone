@@ -73,9 +73,3 @@ Some features have a much bigger impact on the pricing. Unsurprisingly, the numb
 * In the future, I could spend more time and segmenting listings instead of just setting an arbitrary ceiling listing price at $1000
 * I could also use NLP to analyse listing description and give it sentimental score instead of binary yes/no like here
 * There might be certain amenities that is higher demand than others which could contribute to the price. This could also be analyzed further
-
-
-
-
-
-
